@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Tea Time</title>
+  <title>Research</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,17 +53,16 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/teaCover.jpg')">
+  <header class="masthead" style="background-image: url('img/researchCover.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Tea Time</h1>
-            <h2 class="subheading">East Frisian Tea</h2>
+            <h1>Research is Not a Straight Line</h1>
             <span class="meta">Posted by
               <a href="#">Maggie Ugelstad</a>
-              on July 10, 2019</span>
+              on July 26, 2019</span>
           </div>
         </div>
       </div>
@@ -76,38 +75,29 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           
-          <h2 class="section-heading">Tea Ceremonies</h2>
-          <h3>It all started with a cup of tea.</h3>
+          <h2 class="section-heading">Researching as an IRES Intern in Oldenburg, Germany</h2>
           
-          <p>On a windy, somewhat rainy, and definitely chilly day, us three interns set off on an adventure to explore the Northern German countryside. After passing by many of the tall power-generating windmills, we stumbled upon a small antique one in Aurich which we could climb. We were able to learn about the internal mechanisms of the windmill by seeing the gears first-hand and could view the peaceful countryside from the top.</p>
-
-          <p>The view was lovely, but the wind eventually brought us back inside, with cold hands and chattering teeth. Searching for some food to warm us up, we went next door. What we then discovered was a tea house, where they served cakes, coffee, and tea. We ordered coffee and tea, and we were also served a history lesson.</p>
-
-          <p>For approximately 300 years, East Frisians have been taking part in tea ceremonies as a ritualistic way of drinking tea. This has developed over these 300 years as a tea culture in Lower Saxony that is appreciated by locals and visitors alike.</p>
-
-          <p>The tea ceremony begins with the 'Kluntje'. One must grab the Kluntje from the sugar bowl with the tongs and place it gently into their teacup. When the tea has been steeped in the teapot, the tea is poured into the teacup on top of the Kluntje, which makes a crackling noise as the tea begins to dissolve the rock sugar.</p>
-
-          <p>Next, one must pour a small amount of cream into the teacup from the side. The cream then drops to the bottom of the cup and rises again in the shape of a cloud, called 'Wulkje'.</p>
+          <p>When I began my research here in Oldenburg, I first created a timeline for my topic. My topic - researching workload on participants in Virtual Reality and automating the NASA-TLX Questionnaire - was multi-faceted. Many parameters go into the NASA-TLX Questionnaire (see below), so I had to narrow my research question down to just a few to fit my two-month timeline.</p>
 
           <a href="#">
-            <img class="img-fluid" src="img/wulkje.jpg" alt="Wulkje">
+            <img class="img-fluid" src="img/nasa-tlx.png" alt="NASA TLX Parameters">
           </a>
           <span class="caption text-muted">Image from 
-            <a href="https://www.therighttea.com/east-frisian-tea.html">The Right Tea</a>
+            <a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20160008388.pdf">NASA</a>
           </span>
 
-          <p>
-            <blockquote class="blockquote">"Generally, the tea is not stirred, so that with each sip a different taste is experienced: first the mild cream, then the strong tea and finally the sweetness of the rock sugar."  <a href="https://www.unesco.de/en/east-frisian-tea-culture"> -UNESCO <a>
-            </blockquote>
-           
-          </p>
+          <p>I started working with the electroencephalogram (EEG) from Emotiv. I could use this device to gather data on frustration to fit one of the parameters for the NASA-TLX Questionnaire. I started writing a wrapper around the Emotiv BCI Application that would gather this data; however, this would not be integrated well into Unity for Virtual Reality and I abandoned my original idea. As I was about to move on to the next idea, we realized that we were not going to be granted access rights to the Emotiv SDK in a timely manner. Therefore, I moved on to the next piece of hardware: the heart rate monitor. There were, unfortunately, issues with this as well. We were unable to get the SDK for the heart rate monitor nor the proper charging device.</p>
 
-          <p>As the sugar dissolves over time, the tea becomes sweeter, giving a new experience with every sip.</p>
+          <p>Not all was lost! From this experience of working with the Emotiv EEG, I learned that I am interested in Brain-Computer Interaction. What I found particularly interesting was learning about the science behind how the brain conducts signals to the EEG and how I could capture these signals from the device to create something novel in the virtual sphere.</p>
+
+          <p>After some struggles with the hardware and not being able to receive the SDKs, I began to grapple with the aGlass eye-tracking device. The purpose of this device was to measure eye data - in particular, pupil size - to be able to detect when a participant has increased mental workload whilst performing a task in Virtual Reality. Eventually, we were able to get the raw camera data from the aGlass, which we then started connecting to PupilLabs. Due to the difficulties configuring PupilLabs on Windows (we couldn't just run the compiled packages because of the camera settings), we decided to go our way and analyze it from scratch with openCV. The last step then was to integrate into my Unity scene and get a demo study up and running.</p>
+          
+          <p>While my research experience was not necessarily straightforward, I would not have gone back and picked a different topic, for I learned an impeccable amount over this past summer and my debugging skills have significantly improved because of it.</p>
 
           <a href="#">
-            <img class="img-fluid" src="img/teaCeremony.png" alt="Tea Ceremony">
+            <img class="img-fluid" src="img/maggie-in-vr.jpg" alt="Maggie in Virtual Reality">
           </a>
-          <span class="caption text-muted">East Frisian Tea Ceremony in Aurich</span>
+          <span class="caption text-muted">Maggie in Virtual Reality</span>
         </div>
       </div>
     </div>
@@ -148,7 +138,7 @@
           </ul>
           <p class="copyright text-muted">Copyright &copy; Maggie Ugelstad 2019</p>
           <p class="copyright text-muted">Background image from 
-            <a href="https://foodal.com/drinks-2/tea/recipes-tea/keeping-up-with-tradition-the-german-east-frisian-tea-ceremony/">Foodal</a>
+            <a href="https://www1.uwe.ac.uk/et/research/csrc.aspx">UWE Bristol Computer Science Research Center</a>
           </p>
         </div>
       </div>
