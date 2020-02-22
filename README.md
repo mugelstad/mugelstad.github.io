@@ -8,10 +8,10 @@ I worked in the Health Division of OFFIS, programming a n-Back Task in an Eye-Tr
 ![NASA TLX](./img/nasa-tlx.png)
 
 ## Poster Presentation
-![Poster Presentation](./img/maggie-poster-presentation.png)
+![Poster Presentation](./img/maggie-poster-presentation.jpg)
 
 ## N-Back Task Video Representation
 ![Nback Mental Task Video](./video/mental-task.MOV)
 
 ## Photograph of me in Berlin
-![Maggie in Berlin](./img/maggie-in-berlin.png)
+![Maggie in Berlin](./img/maggie-in-berlin.jpg)
