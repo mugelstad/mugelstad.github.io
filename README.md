@@ -11,7 +11,7 @@ I worked in the Health Division of OFFIS, programming a n-Back Task in an Eye-Tr
 ![Poster Presentation](./screenshots/poster-presentation.png)
 
 ## N-Back Task Video Representation
-![Nback Mental Task Video](./screenshots/nback-mental-task.mp4)
+![Nback Mental Task Video](./video/mental-task.mov)
 
 ## Photograph of me in Berlin
 ![Maggie in Berlin](./screenshots/maggie-in-berlin.png)
